@@ -6,6 +6,7 @@ group :test do
   gem 'coveralls', :require => false
   gem 'casting'
   gem 'rubinius-coverage', :platform => :rbx
+  gem 'celluloid'
 end
 
 platforms :rbx do
